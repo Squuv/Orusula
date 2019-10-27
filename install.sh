@@ -22,7 +22,7 @@ function termuxOS() {
             rm "/data/data/com.termux/files/usr/bin/Orusula"
         else
             echo -e "$red [$green✘$red]$off If You Want To Install You Must Remove Previous Installations";
-            echo -e "$red [$green✘$red]$off Installation Failed";
+            echo -e "$red [$green✘$red]$off Installation Failed!!";
             exit
         fi
     fi
