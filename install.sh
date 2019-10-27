@@ -28,9 +28,9 @@ function termuxOS() {
         fi
     fi
     echo -e "$red [$green+$red]$off Installing ...";
-    chmod +x /data/data/com.termux/files/usr/share/Orusula/update.sh
-    update.sh
-    if [ -d "/data/data/com.termux/files/usr/share/Orusula" ] ;
+    chmod +x update.sh
+    bash update.sh
+    if [ -d "Orusula.py" ] ;
     then
         echo -e "$red [$green+$red]$off Tool successfully installed and will start in 5s!";
         echo -e "$red [$green+$red]$off You can execute tool by typing Orusula"
@@ -48,8 +48,8 @@ function debianOS(){
     pip install -r ./requirements.txt
     echo -e "$red [$green+$red]$off Checking directories... "
     echo -e "$red [$green+$red]$off Installing ...";
-    sudo chmod +x /usr/share/Orusula/update.sh
-    update.sh
+    sudo chmod +x update.sh
+    bash update.sh
     if [ -d "/usr/share/Orusula" ] ;
     then
         echo -e "$red [$green+$red]$off Tool Successfully Installed And Will Start In 5s!";
