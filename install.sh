@@ -15,12 +15,11 @@ function termuxOS() {
     echo -e "$red [$green+$red]$off Installing Packages ...";
     pip install -r ./requirements.txt
     echo -e "$red [$green+$red]$off Checking directories ..."
-    if [ -e "/data/data/com.termux/files/usr/share/Orusula" ]; then
+    if [ -e "Orusula.py" ]; then
         echo -e "$red [$green+$red]$off A previous installation was found Do you want to replace it? [Y/n]: "
         read replace
         if [ "$replace" == "y" ] || [ "$replace" == "Y" ] || [ -z "$replace" ]; then
-            rm -r "/data/data/com.termux/files/usr/share/Orusula"
-            rm "/data/data/com.termux/files/usr/bin/Orusula"
+            echo "";
         else
             echo -e "$red [$green✘$red]$off If You Want To Install You Must Remove Previous Installations";
             echo -e "$red [$green✘$red]$off Installation Failed!!";
@@ -35,11 +34,12 @@ function termuxOS() {
         echo -e "$red [$green+$red]$off Tool successfully installed and will start in 5s!";
         echo -e "$red [$green+$red]$off You can execute tool by typing Orusula"
         sleep 5;
-        Orusula
+        exit
     else
         echo -e "$red [$green✘$red]$off Tool Cannot Be Installed On Your System! Use It As Portable !";
         exit
     fi
+    exit
 }
 # Orusula install function for debian operating system. linux.
 function debianOS(){
@@ -66,6 +66,7 @@ if [ -d "/data/data/com.termux/files/usr/" ]; then
     banner
     echo -e "$red [$green+$red]$off Orusula Will Be Installed In Your System";
     termuxOS
+    exit
 elif [ -d "/usr/bin/" ];then
     banner
     echo -e "$red [$green+$red]$off Orusula Will Be Installed In Your System";
