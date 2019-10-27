@@ -4,7 +4,8 @@ red="\e[0;31m"
 blue="\e[0;94m"
 green="\e[0;32m"
 off="\e[0m"
-#Orusula install function for Android. termux
+# Android.Termux.Orusula
+
 function banner(){
     echo -e "===== ORUSULA INSTALL ====="
 }
