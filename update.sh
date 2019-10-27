@@ -1,15 +1,17 @@
-red   = "\e[0;31m"
+#!/bin/bash
+
+red = "\e[0;31m"
 green = "\e[0;32m"
-off   = "\e[0m"
+off = "\e[0m"
+
 function banner(){
     echo -e "===== ORUSULA INSTALL ====="
 }
 function termuxOS() {
   echo -e "$red [$green+$red]$Cleaning Up Old Directories ...";
-  rm -r "/data/data/com.termux/files/usr/share/Orusula"
   echo -e "$red [$green+$red]$off Installing ...";
-  git clone https://github.com/BrahimJarrar/Orusula "/data/data/com.termux/files/usr/share/Orusula";
-  if [[ -d "/data/data/com.termux/files/usr/share/Orusula" ]]; then
+  git pull;
+  if [[ -d "Orusula.py" ]]; then
     echo -e "$red [$green+$red]$off Tool Successfully Updated And Will Start In 5s!";
     echo -e "$red [$green+$red]$off You can execute tool by typing Orusula"
     sleep 5;
