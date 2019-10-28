@@ -33,10 +33,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/anouarbensaad/vulnx/wiki">VulnX Wiki</a> •
-  <a href="https://github.com/anouarbensaad/vulnx/wiki/Usage">How To Use</a> •
-  <a href="https://github.com/anouarbensaad/vulnx/wiki/Compatibility-&-Dependencies">Compatibility</a> •
-  <a href="https://github.com/anouarbensaad/vulnx/wiki/Vulnx-Library">Library</a> •
+  <a href="https://github.com/BrahimJarrar/Orusula/wiki">Orusula Wiki</a> •
+  <a href="https://github.com/BrahimJarrar/Orusula/wiki/Usage">How To Use</a> •
+  <a href="https://github.com/BrahimJarrar/Orusula/wiki/Compatibility-&-Dependencies">Compatibility</a> •
+  <a href="https://github.com/BrahimJarrar/Orusula/wiki/Orusula-Library">Library</a> •
 </p>
 
 -------------------------------------
@@ -177,6 +177,6 @@ You can contribute in following ways:
 - Searching Exploits
 - Give suggestions **(Ideas)** to make it better
 
-Do you want to have a conversation in private? Discord : Orusula#4857
+Do you want to have a conversation in private? Discord : **Orusula#4857**
 
 ***Orusula*** is licensed under [GPL-3.0 License](https://github.com/BrahimJarrar/Orusula/blob/master/LICENSE)
