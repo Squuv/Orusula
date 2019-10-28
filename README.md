@@ -163,7 +163,7 @@ $ ./install.sh
 
 ### :warning: Warning!
 
-***I Am Not Responsible of any Illegal Use***
+***I Am Not Responsible of any Illegal Use!***
 
 -------------------------------------
 
