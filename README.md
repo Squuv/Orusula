@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/BrahimJarrar">
+  <a href="https://github.com/Squuv">
     <img src="https://cdn130.picsart.com/296531077044211.png?r1024x1024" alt="Orusula bot" width="450">
   </a>
   </br>
@@ -14,29 +14,29 @@
 </h4>
 
 <p align="center">
-   <a href="https://github.com/BrahimJarrar/">
-    <img src="https://img.shields.io/github/license/BrahimJarrar/Orusula">
+   <a href="https://github.com/Squuv/">
+    <img src="https://img.shields.io/github/license/Squuv/Orusula">
   </a>
 
   <a href="https://pypi.org/project/Orusula/">
     <img src="https://img.shields.io/badge/pypi-Orusula-red.svg">
   </a>
 
-  <a href="https://github.com/BrahimJarrar/">
-      <img src="https://img.shields.io/github/issues/BrahimJarrar/Orusula">
+  <a href="https://github.com/Squuv/">
+      <img src="https://img.shields.io/github/issues/Squuv/Orusula">
   </a>
-  <a href="https://travis-ci.com/BrahimJarrar/Orusula">
-    <img src="https://api.travis-ci.com/BrahimJarrar/Orusula.svg">
+  <a href="https://travis-ci.com/Squuv/Orusula">
+    <img src="https://api.travis-ci.com/Squuv/Orusula.svg">
   </a>
   <br></br>
   <img src="screenshot/00-00.PNG" width="750">
 </p>
 
 <p align="center">
-  <a href="https://github.com/BrahimJarrar/Orusula/wiki">Orusula Wiki</a> •
-  <a href="https://github.com/BrahimJarrar/Orusula/wiki/Usage">How To Use</a> •
-  <a href="https://github.com/BrahimJarrar/Orusula/wiki/Compatibility-&-Dependencies">Compatibility</a> •
-  <a href="https://github.com/BrahimJarrar/Orusula/wiki/Orusula-Library">Library</a> •
+  <a href="https://github.com/Squuv/Orusula/wiki">Orusula Wiki</a> •
+  <a href="https://github.com/Squuv/Orusula/wiki/Usage">How To Use</a> •
+  <a href="https://github.com/Squuv/Orusula/wiki/Compatibility-&-Dependencies">Compatibility</a> •
+  <a href="https://github.com/Squuv/Orusula/wiki/Orusula-Library">Library</a> •
 </p>
 
 -------------------------------------
@@ -177,6 +177,6 @@ You can contribute in following ways:
 - Searching Exploits
 - Give suggestions **(Ideas)** to make it better
 
-Do you want to have a conversation in private? Discord : **Orusula#4857**
+Do you want to have a conversation in private? Discord : **Squuv#0420**
 
 ***Orusula*** is licensed under [GPL-3.0 License](https://github.com/BrahimJarrar/Orusula/blob/master/LICENSE)
